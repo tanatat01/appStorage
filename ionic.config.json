@@ -1,6 +1,8 @@
 {
   "name": "appStorage",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "ionic-angular",
   "id": "95707c5b"
 }
