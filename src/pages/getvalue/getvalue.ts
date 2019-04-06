@@ -17,8 +17,7 @@ export class GetvaluePage {
   username:string;
   studentID:string;
   constructor(public navCtrl: NavController, public navParams: NavParams, public storage: Storage) {
-    this.storage.ready().then(
-      ()=>{
+    this.storage.ready().then(()=>{
         this.storage.get('username').then((valName)=>{this.username=valName;});
         this.storage.get('studentID').then((valID)=>{this.studentID=valID;});
   });
